@@ -5,12 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<style>
+    
+body {
+        background-image: url(rose-petals.svg);
+        background-size: cover;
+        background-blur: 10px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        height: 100vh;
+        margin: 0;
+    }
 
-    <h1>Buat Account Baru</h1>
-    <h2>Sign Up Form</h2>
-    <label for="first">First name :</label>
-    <br><br>
+
+     .container {
+            background: rgba(251, 229, 229, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            width: 400px;
+            gap: 20px;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 4px 6px rgba(251, 253, 255, 0.1);
+            text-align: center;
+        }
+
+    
+</style>
+<body>
+    <div class ="container"> 
+
+        <h1>Buat Account Baru</h1>
+        <h2>Sign Up Form</h2>
+        <label for="first">First name :</label>
+        <br><br>
     <input type="text" id="first" name="first">
     <br><br>
     <label for="last">Last name :</label>
@@ -31,8 +59,8 @@
         <label for="jawa">Jawa</label>
         <br><br>
 
-    <label for="Negara">Nationality</label>
-    <br><br>
+        <label for="Negara">Nationality</label>
+        <br><br>
     <select name="Negara" id="negara">
         <option value="Indonesia">Indonesia</option>
         <option value="Jerman">Jerman</option>
@@ -40,7 +68,7 @@
         <option value="Pamekasan">Pamekasan</option>
         <option value="Dengklok">Dengklok</option>
     </select><br><br>
-
+    
     <label for="Language">Language Spoken</label>
     <br><br>
     <input type="checkbox">Indonesia<br>
@@ -49,15 +77,16 @@
     <input type="checkbox">Jawirrrr<br>
     <input type="checkbox">madura<br>
     <br>
-
+    
     <label for="bio">Bio</label>
     <br><br>
     <textarea name="bio" id="bio" cols="37" rows="10"></textarea>
     <br>
     
-    <a href="index.html".html">
+    <a href="Welcome.html".html">
         <button>Sign In</button>
       </a>
+    </div>
 </form>
 </body>
 </html>
